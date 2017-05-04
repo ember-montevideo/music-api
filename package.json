@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha"
   },
   "author": "Adrian Mugnolo",
   "license": "MIT",
@@ -13,5 +14,9 @@
     "express": "~4.15.2",
     "lodash": "^4.17.4",
     "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0",
+    "supertest": "^3.0.0"
   }
 }
